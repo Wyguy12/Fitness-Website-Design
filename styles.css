@@ -1,0 +1,152 @@
+/*
+    I certify that the CSS file I am submitting is all my own work.
+    None of it is copied from any source or any person.
+    Signed: Wyatt Fredrickson. Dated: 11/16/2023
+*/
+/*
+    Author: Wyatt Fredrickson
+    Date: 11/16/2023
+    Class: CSC135
+    Project: Assignment 3
+    Description: Creating an online bodybuilding supplement website.
+*/
+/* 
+    References: 
+    https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+    https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout 
+    https://www.w3schools.com/html/html5_semantic_elements.asp
+*/
+
+
+
+/* Header contents styling. */
+header {
+    background-color: #add8e6;
+    color: black;
+    padding: 10px;
+}
+
+
+
+/* header h1 and img styling. */
+header h1, img {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    margin: 10px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* div class for the top shipping banner styling. */
+.shipping-message {
+    margin: 0;
+    background-color: #001f3f;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+
+
+/* section class for "who we are" */
+.who-we-are {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 2000px;
+    
+}
+
+
+
+/* body contents styling. */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Main contents styling. */
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+
+
+/* Main 4 product boxes class. */
+.main-product-box {
+    border: 0px solid #ccc;
+    padding: 30px;
+    margin: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+
+
+/* sub class h2 of the product box class. */
+.main-product-box h2 {
+    font-size: 24px;
+}
+
+
+
+/* sub class img of the product box class. */
+.main-product-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Description class for each box. */ 
+.description-box {
+    border: 0px solid #ccc;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+
+/* Footer contents styling. */
+footer {
+    background-color: #001f3f;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* footer, styling of the address contents. */
+footer address {
+    max-width: 1000px;
+}
+
+
+/* footer, styling of the nav contents. */
+footer nav {
+    max-width: 300px;
+}
+
+
+/* footer, styling of the social media contents. */
+footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+/* footer social media styling hover attribute being used. */
+footer a:hover {
+    text-decoration: underline;
+}
